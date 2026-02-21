@@ -2,6 +2,7 @@ let box = document.querySelector("#box");
 var boxsize = 480;
 let slider = document.querySelector("#slider")
 let sizeVal = document.querySelector("#sizeValue")
+let colorPicker = document.querySelector("#colorPicker");
 
 function createGrid(size){
     box.innerHTML = ""
